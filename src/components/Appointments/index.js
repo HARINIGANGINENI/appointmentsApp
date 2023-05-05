@@ -69,7 +69,7 @@ import AppointmentItem from '../AppointmentItem'
     return appointmentsList
   }
 
-  render() {
+  render(){
     const {titleInput, dateInput, appointmentsList, isFilterActive} = this.state
     const filteredAppointmentsList=this.getFilteredAppointmentsList()
 
